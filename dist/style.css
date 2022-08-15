@@ -1,0 +1,12 @@
+input{
+	font-size: larger;
+}
+
+main{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+input.reactive{
+	width: 5em;
+}

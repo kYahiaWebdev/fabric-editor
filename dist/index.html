@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FabricJS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="controls">
+            <p>
+                <label for="">Font size</label>
+                <input type="number" id="font-size" value="80" class="reactive">
+            </p>
+            <p>
+                <label for="">Positions</label>
+                <input type="number" id="top" class="reactive">
+                <input type="number" id="left" class="reactive">
+            </p>
+            <p>
+                <label for="">Color</label>
+                <input type="color" id="color" value="#ffffff" class="reactive">
+            </p>
+
+
+            <footer>
+                <p>
+                    <li>16x0.9</li>
+                    <li>16x1.1</li>
+                    <li>20x0.75</li>
+                    <li>20x12</li>
+                    <li>20x1.45</li>
+                    <li>20x1</li>
+                    <li>20x11</li>
+                    <li>25x0.9</li>
+                    <li>25x0.75</li>
+                    <li>25x1.2</li>
+                    <li>25x1</li>
+                    <li>25x1.8</li>
+                    <li>25x1.1</li>
+                    <li>25x0.75</li>
+                    <li>25x1.46</li>
+                </p>
+                <p>
+                    <li>40x2</li>
+                    <li>30x12</li>
+                    <li>30x15</li>
+                    <li>40x12</li>
+                    <li>40x1.4</li>
+                    <li>30x0.9</li>
+                    <li>30x1.2</li>
+                    <li>30x1.4</li>
+                    <li>30x0.75</li>
+                    <li>30x0.75</li>
+                    <li>30x17.5</li>
+                    <li>40x1.45</li>
+                </p>
+                <p>
+                    <li>60x2</li>
+                    <li>60x3</li>
+                    <li>50x18</li>
+                    <li>50x1.4</li>
+                    <li>60x1.5</li>
+                    <li>60x1.7</li>
+                </p>
+                <p>
+                    <li>80x4</li>
+                    <li>80x3</li>
+                    <li>100x4</li>
+                </p>
+            </footer>
+
+        </div>
+
+        <div class="display">
+            <canvas id="c" height="400" width="400"></canvas>
+            <p>
+                <label for="">Content</label>
+                <input type="text" id="content" value="10 mm">
+            </p>
+            <button id="apply">Apply</button>
+            <button id="download">Download</button>
+        </div>
+    </main>
+
+
+    <script src='./main.js'></script>
+</body>
+
+</html>
